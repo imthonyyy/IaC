@@ -1,5 +1,6 @@
 
 Integrantes del Grupo 6
+
 Rodrigo Flores Alvarez
 
 Julio Cedamanos Guevara
@@ -34,9 +35,12 @@ Los servicios se agrupan en redes Docker específicas:
 
 app_net: Conexión de aplicaciones Nginx
 
+
 persistence_net: Conexión de Redis y PostgreSQL
 
+
 monitor_net: Conexión de Grafana y monitorización
+
 
 Flujo de Comunicación
 Usuarios → Aplicaciones Nginx
